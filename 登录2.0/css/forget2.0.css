@@ -1,0 +1,239 @@
+html,body{
+  height:100%;
+}
+.main{
+  width: 100%;
+  height:100%;
+  position:relative;
+  background:url("../images/login_bg.jpg") 0 0 no-repeat;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 276369 */
+  src: url('//at.alicdn.com/t/font_qhe6ykahbd4sfw29.eot');
+  src: url('//at.alicdn.com/t/font_qhe6ykahbd4sfw29.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_qhe6ykahbd4sfw29.woff') format('woff'),
+  url('//at.alicdn.com/t/font_qhe6ykahbd4sfw29.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_qhe6ykahbd4sfw29.svg#iconfont') format('svg');
+}
+ .iconfont{
+  display:inline-block;
+  font-family:"iconfont";
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.box{
+  position:absolute;
+  top:15%;
+  left: 10%;
+}
+.logo_box{
+  text-align: center;
+  margin-bottom:30px;
+}
+.login_box{
+  width:385px;
+  height:440px;
+  background: rgba(240, 240, 240, 0.5);
+  border-radius:10px;
+  position:relative;
+}
+.login{
+  position:absolute;
+  top:20px;
+  left: 20px;
+  width:345px;
+  height:400px;
+  background:#fff;
+  border-radius:10px;
+}
+.login>table{
+  width:305px;
+  margin-left:20px;
+}
+.login>table tr{
+  height:63px;
+}
+.login>table tr:nth-child(1) td:nth-child(1),.login>table tr:nth-child(2) td:nth-child(1){
+  width:45px;
+}
+.i1{
+  display:inline-block;
+  width:40px;
+  height:40px;
+  font-size: 40px;
+  color:#B3B3B3;
+}
+#userName,#passWord,#phoneNumber,#yNumber,#maillNumber{
+  outline:none;
+  border-bottom:1px solid #999999;
+  width:100%;
+  padding: 5px 0;
+}
+.login_l{
+  float: left;
+  width:50%;
+}
+.login_r{
+  float: right;
+  width:50%;
+  text-align:right;
+}
+.i2{
+  display:inline-block;
+  width:25px;
+  height:25px;
+  font-size: 20px;
+  color:#4581DA;
+  cursor:pointer;
+}
+.i22{
+  display:none;
+}
+.remember{
+  color:#4581DA;
+  vertical-align: top;
+  font-size: 12px;
+}
+.no_remember{
+  color:#4581DA;
+  vertical-align: top;
+  font-size: 12px;
+  text-decoration:underline;
+  cursor: pointer;
+}
+.login_btn{
+  display:inline-block;
+  width:100%;
+  height:40px;
+  text-align:center;
+  color:#fff;
+  font-size:17px;
+  line-height: 40px;
+  background:#4078CB;
+}
+.login_c{
+  display:inline-block;
+  width:100%;
+  text-align:center;
+  color:#4078CB;
+  font-size:14px;
+  text-decoration:underline;
+  font-weight:bold;
+}
+.login_footer{
+  width:100%;
+  height:110px;
+  position:absolute;
+  bottom: 0px;
+}
+.f_top,.f_bottom{
+  width:100%;
+  height:50px;
+  text-align:center;
+  color:#fff;
+}
+.f_bottom>div{
+  width:240px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.wenz{
+  vertical-align: top;
+  display: inline-block;
+  margin-top: -7px;
+}
+.user_1,.user_2,.user_3{
+  color:#FF6600;
+  font-size:14px;
+  position:absolute;
+  top: 42px;
+  display:none;
+}
+.pass_1,.pass_2,.pass_3{
+  color:#FF6600;
+  font-size:14px;
+  position:absolute;
+  top: 42px;
+  display:none;
+}
+.phone_1,.phone_2{
+  color:#FF6600;
+  font-size:14px;
+  position:absolute;
+  top: 42px;
+  display:none;
+}
+.yN_1,.yN_2{
+  color:#FF6600;
+  font-size:14px;
+  position:absolute;
+  top: 42px;
+  display:none;
+}
+.maill_1{
+  color:#FF6600;
+  font-size:14px;
+  position:absolute;
+  top: 42px;
+  display:none;
+}
+.maill{
+  display: none;
+}
+.get_num{
+  display:inline-block;
+  width:80px;
+  height:30px;
+  background-color: #999999;
+  color:#fff;
+  position:absolute;
+  right:0px;
+  top:10px;
+  text-align:center;
+  line-height:30px;
+  border-radius:5px;
+  cursor:pointer;
+}
+.i15{
+  position:absolute;
+  top:10px;
+  right:0;
+  font-size:19px;
+  width:20px;
+  height:20px;
+  cursor: pointer;
+}
+.i16{
+  color:#4078cb;
+}
+.login_txt{
+  width:100%;
+  height:70px;
+}
+.txt_l{
+  float:left;
+  text-align:center;
+  line-height:40px;
+  width:150px;
+  height:40px;
+  margin:15px 0 0 20px;
+  border: 1px solid #4078cb;
+  background:#4078cb;
+  color:#fff;
+  border-radius:5px 0 0 5px;
+  cursor:pointer;
+}
+.txt_r{
+  float:left;
+  text-align:center;
+  line-height:40px;
+  width:150px;
+  height:40px;
+  margin-top:15px;
+  border: 1px solid #4078cb;
+  color:#4078cb;
+  border-radius: 0 5px 5px 0 ;
+  cursor:pointer;
+}
